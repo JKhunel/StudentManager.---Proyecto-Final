@@ -1,3 +1,7 @@
+/*
+Implementa las funciones para guardar y cargar estudiantes en un archivo.
+*/
+
 #include "archivo.h"
 #include <stdio.h>
 #include <string.h>

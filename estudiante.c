@@ -1,3 +1,7 @@
+/*
+Implementa las funciones para agregar, mostrar y calcular el promedio de estudiantes
+*/
+
 #include "estudiante.h"
 #include <stdio.h>
 #include <string.h>

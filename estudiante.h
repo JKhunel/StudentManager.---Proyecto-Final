@@ -1,3 +1,7 @@
+/*
+Funciones para agregar, mostrar y calcular el promedio de estudiantes
+*/
+
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 

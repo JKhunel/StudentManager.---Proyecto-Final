@@ -1,3 +1,7 @@
+/*
+Funciones para guardar y cargar estudiantes en un archivo
+*/
+
 #ifndef ARCHIVO_H
 #define ARCHIVO_H
 

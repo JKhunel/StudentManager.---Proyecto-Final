@@ -1,3 +1,7 @@
+/*
+Funciones para gestionar el menú y las opciones del usuario
+*/
+
 #include <stdio.h>
 #include "estudiante.h"
 #include "archivo.h"
