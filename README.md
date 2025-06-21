@@ -49,6 +49,7 @@ Esto generará el ejecutable `StudentManager.exe`.
 ## Limitaciones
 - El número máximo de estudiantes es 100.
 - Las calificaciones se limitan a 5 por estudiante.
+- No permite editar o eliminar estudiantes una vez agregados.
 - El programa utiliza un formato de archivo simple para guardar y cargar datos, separado por punto y coma y comas.
 - El programa está diseñado para ejecutarse en un entorno de consola de Windows.
 - No se implementa manejo de errores avanzado, por lo que se asume que las entradas son válidas.
