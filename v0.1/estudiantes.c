@@ -6,6 +6,8 @@ Nombre: Iquí-Balam López Hernández.
 Descripción: Este programa gestiona una lista de estudiantes, permitiendo agregar, mostrar, guardar y cargar datos desde un archivo.
 
 Estructura base para el proyecto.
+
+Compilacion: gcc estudiantes.c -o estudiantes.exe -lcomdlg32
 */
 
 #include <stdio.h>              // Incluye funciones de entrada/salida estándar (printf, scanf, etc.)
