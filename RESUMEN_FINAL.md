@@ -67,10 +67,7 @@ StudentManager/
 │   └── StudentManager_Validado.exe     # v3.0 - Con validaciones
 └── [CARPETA] documentacion/            # Documentación técnica
     ├── COMPARACION_INTERFACES.md
-    ├── DOCUMENTACION_VALIDACIONES.md
-    ├── GUIA_PRUEBAS_VALIDACION.md
-    ├── MANUAL_USUARIO_v2.md
-    └── REPORTE_BUG_SOLUCION.md
+    └── DOCUMENTACION_VALIDACIONES.md
 ```
 
 ---
