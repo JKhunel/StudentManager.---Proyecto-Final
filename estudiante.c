@@ -189,7 +189,7 @@ void editarEstudiante(Estudiante *lista, int n) {
     
     if (respuesta == 's' || respuesta == 'S') {
         int nuevaEdad;
-        if (leerEntero(&nuevaEdad, 15, 100, "Nueva edad (15-100): ")) {
+        if (leerEntero(&nuevaEdad, 0, 100, "Nueva edad (0-100): ")) {
             temp.edad = nuevaEdad;
             printf("%s[EXITO] Edad actualizada.%s\n", COLOR_GREEN, COLOR_RESET);
         } else {

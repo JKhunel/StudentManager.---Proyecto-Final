@@ -14,22 +14,22 @@
 
 ## Introducción
 
-**StudentManager v3.1** es un sistema completo de gestión de estudiantes desarrollado en C. Permite registrar, consultar, editar y analizar información académica de manera segura y eficiente.
+**StudentManager v3.1** es un sistema de gestión de estudiantes desarrollado en C. Permite registrar, consultar, editar y analizar información de estudiantes.
 
 ### **Características Principales:**
 - Gestión completa de estudiantes (CRUD)
-- Validaciones robustas de datos
-- Interfaz intuitiva con colores informativos
+- Validaciones de datos
+- Interfaz con colores informativos
 - Sistema de archivos para persistencia
 - Estadísticas y reportes automáticos
-- Compatible con cualquier terminal Windows
+- Compatible con casi cualquier terminal en Windows
 
 ---
 
 ## Instalación y Ejecución
 
 ### **Requisitos del Sistema:**
-- Windows 7/8/10/11
+- Windows 7-11
 - Terminal o Command Prompt
 - Archivo ejecutable `StudentManager.exe`
 
@@ -95,9 +95,9 @@ El sistema solicitará los siguientes datos con validación automática:
 #### **Nombre Completo:**
 - **Formato aceptado:** Solo letras, espacios y puntos
 - **Ejemplos válidos:** 
-  - "Ana García López"
-  - "Dr. Juan Pérez"
-  - "María José"
+  - "Ana Garcia Lopez"
+  - "Dr. Juan Perez"
+  - "Maria Jose"
 - **Ejemplos NO válidos:**
   - "Ana123" (contiene números)
   - "José@email" (contiene símbolos)
@@ -107,7 +107,7 @@ El sistema solicitará los siguientes datos con validación automática:
 - **Rango permitido:** 0 a 100 años
 - **Formato:** Número entero
 - **Ejemplos válidos:** 18, 25, 67
-- **Ejemplos NO válidos:** 14, 101, -5
+- **Ejemplos NO válidos:** 1.4, 112, -5
 
 #### **Matrícula:**
 - **Formato requerido:** Exactamente 10 dígitos
@@ -136,7 +136,7 @@ El sistema solicitará los siguientes datos con validación automática:
 #### **Mostrar Todos (Opción 2):**
 Muestra la lista completa de estudiantes registrados con formato:
 ```
-[1/5] === Ana García López ===
+[1/5] === Ana Garcia Lopez ===
 Edad: 20
 Matrícula: 2024060001
 Calificaciones: 8.50 9.00 7.50 8.00 9.50 
@@ -238,11 +238,11 @@ Estudiante con menor promedio:
 1. Seleccione la opción 5
 2. Se abrirá un diálogo de Windows para elegir ubicación
 3. Ingrese el nombre del archivo (se agrega .txt automáticamente)
-4. Los datos se guardan en formato CSV
+4. Los datos se guardan
 
 **Formato del archivo:**
 ```
-Ana García López;20;2024060001;8.50,9.00,7.50,8.00,9.50;8.50
+Ana Garcia Lopez;20;2024060001;8.50,9.00,7.50,8.00,9.50;8.50
 Carlos Ruiz;22;2024060002;6.00,5.50,7.00,6.50,6.00;6.20
 ```
 
@@ -261,31 +261,6 @@ Carlos Ruiz;22;2024060002;6.00,5.50,7.00,6.50,6.00;6.20
 
 ---
 
-## Consejos y Mejores Prácticas
-
-### **Para Uso Diario:**
-1. **Haga respaldos frecuentes** usando la opción "Guardar en archivo"
-2. **Verifique matrículas** antes de agregar estudiantes
-3. **Use estadísticas** para monitorear el rendimiento del grupo
-4. **Ordene por promedio** para identificar estudiantes que necesitan apoyo
-
-### **Para Profesores:**
-- Use "Mostrar reprobados" para identificar estudiantes en riesgo
-- Las estadísticas ayudan en reportes de desempeño
-- La búsqueda por matrícula es útil para consultas rápidas en clase
-
-### **Para Administradores:**
-- Mantenga archivos de respaldo en diferentes ubicaciones
-- Use nombres descriptivos para los archivos (ej: "Estudiantes_2025_Semestre1.txt")
-- Verifique la capacidad (máximo 100 estudiantes por archivo)
-
-### **Gestión de Datos:**
-- **Nombres:** Use nombres completos y formales
-- **Matrículas:** Siga un formato consistente (ej: año + código)
-- **Calificaciones:** Ingrese decimales con punto (8.5, no 8,5)
-
----
-
 ## Solución de Problemas
 
 ### **Problemas Comunes:**
@@ -293,57 +268,42 @@ Carlos Ruiz;22;2024060002;6.00,5.50,7.00,6.50,6.00;6.20
 #### **"El programa no inicia"**
 - Verifique que esté en una máquina Windows
 - Asegúrese de tener permisos de ejecución
-- Ejecute desde Command Prompt, no doble clic
+- Ejecute desde Command Prompt, o ejecute el .exe directamente
 
-#### **"No acepta mi nombre/matrícula"**
+#### **"No acepta nombre/matrícula"**
 - **Nombres:** Solo letras, espacios y puntos
 - **Matrículas:** Exactamente 10 dígitos numéricos
-- Revise los ejemplos en este manual
+- Revise los ejemplos del manual
 
 #### **"Dice que la matrícula ya existe"**
 - Cada matrícula debe ser única
 - Use la función "Buscar" para verificar si ya existe
-- Considere un formato diferente
+- Inntente borrando el estudiante con esa matrícula si es necesario
 
-#### **"No puedo guardar/cargar archivos"**
+#### **"No se puede guardar/cargar archivos"**
 - Verifique permisos de escritura en la carpeta
 - Asegúrese de que no haya archivos bloqueados
-- Use ubicaciones con acceso garantizado (Documentos, Escritorio)
+- Revisar que el archivo tenga el formato correcto y sea un .txt
 
 #### **"Los colores no se ven bien"**
 - Use Windows Terminal o PowerShell para mejor soporte
-- Los colores son opcionales, la funcionalidad se mantiene
+- Intente cambiar la configuración de colores desde la terminal
 
 #### **"Perdí mis datos"**
 - Sin archivo guardado, los datos se pierden al cerrar
-- Siempre use "Guardar en archivo" antes de salir
+- Siempre usar "Guardar en archivo" antes de salir
 - Los archivos guardados se pueden cargar nuevamente
 
 ### **Mensajes del Sistema:**
 
 - **[EXITO]** - La operación se completó correctamente
 - **[ERROR]** - Hay un problema que debe corregir
-- **[AVISO]** - Información importante, lea cuidadosamente
+- **[AVISO]** - Información importante
 
-### **Límites del Sistema:**
+### **Límites del Programa:**
 - **Máximo 100 estudiantes** por sesión
 - **3 intentos** por campo al ingresar datos
 - **5 calificaciones** por estudiante (fijo)
 - **Solo Windows** como plataforma compatible
 
 ---
-
-## Contacto y Soporte
-
-**Desarrollador:** Iquí-Balam López Hernández  
-**Versión:** 3.1  
-**Fecha:** 25 de junio de 2025
-
-Para reportar problemas o sugerencias, documente:
-1. Versión del programa
-2. Sistema operativo
-3. Pasos para reproducir el problema
-4. Mensaje de error exacto (si aplica)
-
----
-

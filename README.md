@@ -4,22 +4,22 @@
 **Autor:** Iquí-Balam López Hernández
 
 ## Descripción
-Este programa gestiona una lista de estudiantes con **validaciones robustas**, **interfaz limpia** y **funcionalidades avanzadas**. Garantiza la integridad de los datos mediante validaciones exhaustivas en tiempo real, con una interfaz optimizada para máxima compatibilidad.
+Este programa gestiona una lista de estudiantes con **validaciones**, **interfaz** y **funcionalidades avanzadas**.
 
 ## Características Principales v3.1
 
-### **Sistema de Validación Completo:**
+### **Sistema de Validación:**
 - **Validación de nombres** - Solo letras, espacios y puntos (máximo 49 caracteres)
-- **Validación de edad** - Rango 15-100 años con verificación numérica
-- **Validación de matrícula** - 10 dígitos únicos, prevención de duplicados
+- **Validación de edad** - Rango 0-100 años con verificación numérica
+- **Validación de matrícula** - 10 dígitos únicos, evitando duplicados
 - **Validación de calificaciones** - Rango 0.0-10.0 con decimales
 - **Sistema de intentos** - 3 oportunidades por campo con mensajes claros
 - **Retroalimentación inmediata** - Estados [EXITO], [ERROR], [AVISO]
 
 ### **Interfaz Optimizada:**
-- **Compatible universalmente** - Sin caracteres especiales problemáticos
+- **Compatible** - Sin caracteres especiales problemáticos
 - **Colores informativos** - Verde (éxito), Rojo (error), Azul (info), Amarillo (aviso)
-- **Navegación intuitiva** - Menú numerado claro con 11 funciones
+- **Navegación fácil** - Menú numerado claro con 11 funciones
 - **Limpieza automática** - Pantalla organizada y buffer controlado
 
 ### **Funcionalidades Avanzadas:**
@@ -27,7 +27,7 @@ Este programa gestiona una lista de estudiantes con **validaciones robustas**, *
 - **Búsqueda inteligente** - Por matrícula con validación de formato
 - **Estadísticas detalladas** - Promedios, mejor/peor estudiante, conteos
 - **Ordenamiento múltiple** - Por nombre, promedio (asc/desc), matrícula
-- **Persistencia robusta** - Guardar/cargar con diálogos de Windows
+- **Persistencia** - Guardar/cargar con diálogos de Windows
 
 ## Especificaciones Técnicas Mantenidas
 
@@ -129,8 +129,8 @@ Seleccione una opción:
 6. **Cargar desde archivo** - Importar datos con verificación
 7. **Buscar por matrícula** - Localización rápida de estudiante específico
 8. **Editar estudiante** - Modificación selectiva de campos existentes
-9. **Eliminar estudiante** - Remoción segura con confirmación
-10. **Ordenar lista** - 4 criterios de ordenamiento disponibles
+9. **Eliminar estudiante** - Eliminación segura con confirmación
+10. **Ordenar lista** - 4 formas de ordenamiento disponibles
 11. **Ver estadísticas** - Análisis completo de rendimiento grupal
 
 ## Características Técnicas Avanzadas
@@ -156,20 +156,18 @@ Seleccione una opción:
 
 - **Capacidad máxima:** 100 estudiantes por sesión
 - **Calificaciones por estudiante:** 5 (fijo)
-- **Formato de archivo:** CSV con separadores ; y ,
+- **Formato de archivo:** .txt con separadores ; y ,
 - **Plataforma:** Exclusivamente Windows (por uso de Windows API)
-- **Codificación:** UTF-8 con soporte para acentos españoles
+- **Codificación:** UTF-8
 
 ## Mejoras Implementadas v3.1
 
-- **Interfaz universalmente compatible** sin caracteres problemáticos
+- **Interfaz compatible** sin caracteres problemáticos
 - **Organización del proyecto** con carpetas separadas por tipo
-- **Documentación completa** con manual de usuario
+- **Documentación** con manual de usuario
 - **Corrección de bugs críticos** para estabilidad total
-- **Optimización de rendimiento** y experiencia de usuario
-- **Validaciones exhaustivas** para integridad de datos
-- **Sistema de archivos robusto** con manejo de errores
+- **Optimización de rendimiento**
+- **Validaciones** para evitar errores comunes
+- **Sistema de archivos** con manejo de errores
 
 ---
-
-**El programa StudentManager v3.1 es una solución completa, robusta y profesional para la gestión académica de estudiantes.**

@@ -94,4 +94,4 @@ Promedio: 8.50 (APROBADO)
 - Limpieza de pantalla
 - Pausas para lectura
 - Mensajes informativos
-- Indicadores visuales (✓, ❌)
+- Indicadores visuales
