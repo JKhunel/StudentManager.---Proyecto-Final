@@ -51,7 +51,7 @@ Estudiantes registrados: 3/100
 Seleccione una opción: 
 ```
 
-## 📋 **Comparación de Visualización de Estudiantes:**
+## [MANUAL] **Comparación de Visualización de Estudiantes:**
 
 ### **Original (con marcos):**
 ```
@@ -75,22 +75,22 @@ Promedio: 8.50 (APROBADO)
 ----------------------------------------
 ```
 
-## 🎯 **Características Mantenidas:**
+## [TARGET] **Características Mantenidas:**
 
-✅ **Colores funcionales:**
+[OK] **Colores funcionales:**
 - Verde: Aprobados, éxito
 - Rojo: Reprobados, errores  
 - Azul: Información general
 - Amarillo: Advertencias
 - Cian: Títulos
 
-✅ **Funcionalidades completas:**
+[OK] **Funcionalidades completas:**
 - Todas las 11 opciones del menú
 - Búsqueda, edición, eliminación
 - Estadísticas y ordenamiento
 - Validaciones y confirmaciones
 
-✅ **Experiencia de usuario:**
+[OK] **Experiencia de usuario:**
 - Limpieza de pantalla
 - Pausas para lectura
 - Mensajes informativos
