@@ -137,7 +137,7 @@ Seleccione una opción:
 
 ### **Validaciones Implementadas:**
 - **Nombres:** Máximo 49 caracteres, solo letras/espacios/puntos
-- **Edades:** Rango 15-100 años, verificación numérica
+- **Edades:** Rango 0-100 años, verificación numérica
 - **Matrículas:** Exactamente 10 dígitos, unicidad garantizada
 - **Calificaciones:** Rango 0.0-10.0, soporte para decimales
 

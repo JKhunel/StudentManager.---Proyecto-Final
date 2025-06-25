@@ -104,7 +104,7 @@ El sistema solicitará los siguientes datos con validación automática:
   - "" (vacío)
 
 #### **Edad:**
-- **Rango permitido:** 15 a 100 años
+- **Rango permitido:** 0 a 100 años
 - **Formato:** Número entero
 - **Ejemplos válidos:** 18, 25, 67
 - **Ejemplos NO válidos:** 14, 101, -5
@@ -347,6 +347,3 @@ Para reportar problemas o sugerencias, documente:
 
 ---
 
-**¡Gracias por usar StudentManager v3.1!**
-
-*Este manual cubre todas las funcionalidades del programa. Para documentación técnica adicional, consulte la carpeta 'documentacion' del proyecto.*
