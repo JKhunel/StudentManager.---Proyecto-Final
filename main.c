@@ -19,6 +19,20 @@ int main() {
     Estudiante lista[MAX_ESTUDIANTES]; // Arreglo para almacenar estudiantes
     int n = 0, opcion, i;
 
+    // Pantalla de bienvenida
+    limpiarPantalla();
+    printf("%s", COLOR_CYAN);
+    printf("======================================================\n");
+    printf("    StudentManager v3.1 - Version Final Optimizada\n");
+    printf("======================================================\n");
+    printf("%s", COLOR_RESET);
+    printf("\n");
+    printf("%sFecha de ultima revision:%s 25/06/2025\n", COLOR_YELLOW, COLOR_RESET);
+    printf("%sAutor:%s Iqui-Balam Lopez Hernandez\n", COLOR_GREEN, COLOR_RESET);
+    printf("\n");
+    printf("%s[ENTER] Presione Enter para continuar...%s", COLOR_BLUE, COLOR_RESET);
+    getchar(); // Espera a que el usuario presione Enter
+
     while (1) {
         limpiarPantalla();
         // Menú de opciones simplificado
