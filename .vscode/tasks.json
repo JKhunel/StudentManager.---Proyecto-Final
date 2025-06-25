@@ -1,0 +1,24 @@
+{
+	"version": "3.1.0",
+	"tasks": [
+		{
+			"label": "Compilar StudentManager",
+			"type": "shell",
+			"command": "gcc",
+			"args": [
+				"-o",
+				"StudentManager.exe",
+				"main.c",
+				"estudiante.c",
+				"archivo.c",
+				"-std=c99",
+				"-lcomdlg32"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"isBackground": false
+		}
+	]
+}
