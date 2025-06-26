@@ -407,7 +407,7 @@ int validarNombre(char *nombre) {
 
 // Función para validar edad
 int validarEdad(int edad) {
-    if (edad < 15 || edad > 100) {
+    if (edad < 0 || edad > 100) {
         printf("%s[ERROR] Error: La edad debe estar entre 0 y 100 anos.%s\n", COLOR_RED, COLOR_RESET);
         return 0;
     }
